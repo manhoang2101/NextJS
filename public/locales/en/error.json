@@ -1,0 +1,5 @@
+{
+  "EMAIL_OR_PASSWORD_INCORRECT": "Wrong email or password",
+  "EMAIL_IS_INVALID": "Email is invalid",
+  "SERVER_ERROR": "Server network error"
+}

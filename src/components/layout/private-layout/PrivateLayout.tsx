@@ -7,7 +7,11 @@ import Footer from './footer/Footer';
 
 import { LayoutStyled, ContentStyled } from './styled';
 
-const MainLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+type LayoutProps = {
+  children: React.ReactNode | React.ReactElement;
+};
+
+const MainLayout = ({ children }: LayoutProps) => {
   return (
     <LayoutStyled>
       <Sidebar />
